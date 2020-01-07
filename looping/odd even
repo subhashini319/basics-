@@ -1,0 +1,14 @@
+start=int(input("enter the start number:"))
+end=int(input("enter the end number:"))
+print("the even numbers are: ")
+even=[]
+for i in range(start,end+1):
+    if(i%2==0):
+        even.append(i)
+print(even)
+print("the odd numbers are: ")
+odd=[]
+for i in range(start,end+1):
+    if(i%2!=0):
+        odd.append(i)
+print(odd)
